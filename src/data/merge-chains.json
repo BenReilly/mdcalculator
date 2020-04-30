@@ -1,0 +1,276 @@
+{
+  "dragon-trees":{
+    "displayName":"Dragon Tree",
+    "items":[
+      {
+        "name":"Dragon Tree Leaf",
+        "level":0
+      },
+      {
+        "name":"Dragon Tree Seeds",
+        "level":0
+      },
+      {
+        "name":"Dragon Tree Sapling",
+        "level":1
+      },
+      {
+        "name":"Sprouting Dragon Tree",
+        "level":2
+      },
+      {
+        "name":"Young Dragon Tree",
+        "level":3
+      },
+      {
+        "name":"Vermillion Dragon Tree",
+        "level":4
+      },
+      {
+        "name":"Nice Dragon Tree",
+        "level":5
+      },
+      {
+        "name":"Aged Dragon Tree",
+        "level":6
+      },
+      {
+        "name":"Elder Dragon Tree",
+        "level":7
+      },
+      {
+        "name":"Ancient Dragon Tree",
+        "level":8
+      },
+      {
+        "name":"Arcane Dragon Tree",
+        "level":9
+      },
+      {
+        "name":"Legendary Dragon Tree",
+        "level":10
+      },
+      {
+        "name":"Remains of the Dragon God",
+        "level":11,
+        "requiresDisplayName":true,
+        "isWonder":true
+      }
+    ]
+  },
+  "life-flowers":{
+    "displayName":"Life Flower",
+    "items":[
+      {
+        "name":"Life Flower Seed",
+        "level":"0"
+      },
+      {
+        "name":"Life Flower Sprout",
+        "level":"1"
+      },
+      {
+        "name":"Life Flower",
+        "level":"2"
+      },
+      {
+        "name":"Blue Life Flower",
+        "level":"3"
+      },
+      {
+        "name":"Glowing Life Flower",
+        "level":"4"
+      },
+      {
+        "name":"Twin Life Flower",
+        "level":"5"
+      },
+      {
+        "name":"Brilliant Life Flower",
+        "level":"6"
+      },
+      {
+        "name":"Giant Life Flower",
+        "level":"7"
+      },
+      {
+        "name":"Life Tree Sprout",
+        "level":"8"
+      },
+      {
+        "name":"Life Tree Sapling",
+        "level":"9"
+      },
+      {
+        "name":"Rooted Life Tree",
+        "level":"10"
+      },
+      {
+        "name":"Fanciful Life Tree",
+        "level":"11"
+      },
+      {
+        "name":"Gossamer Life Tree",
+        "level":"12"
+      },
+      {
+        "name":"Incredible Life Tree",
+        "level":"13"
+      },
+      {
+        "name":"Worldly Life Tree",
+        "level":"14"
+      },
+      {
+        "name":"Stellar Life Tree",
+        "level":"15"
+      },
+      {
+        "name":"Heavenly Life Tree",
+        "level":"16"
+      },
+      {
+        "name":"Life Tree of Cosmic Dreams",
+        "level":"17"
+      },
+      {
+        "name":"Rainbow!",
+        "isWonder":true,
+        "requiresDisplayName":true,
+        "level":"18"
+      }
+    ]
+  },
+  "life-orbs":{
+    "displayName":"Life Orb",
+    "items":[
+      {
+        "name":"Life Essence",
+        "level":"0"
+      },
+      {
+        "name":"Tiny Life Orb",
+        "level":"1"
+      },
+      {
+        "name":"Small Life Orb",
+        "level":"2"
+      },
+      {
+        "name":"Life Orb",
+        "level":"3"
+      },
+      {
+        "name":"Furious Life Orb",
+        "level":"4"
+      },
+      {
+        "name":"Wondrous Life Orb",
+        "level":"5"
+      },
+      {
+        "name":"Great Life Orb",
+        "level":"6"
+      },
+      {
+        "name":"Giant Life Orb",
+        "level":"7"
+      },
+      {
+        "name":"Life Orb of Souls",
+        "level":"8"
+      },
+      {
+        "name":"The Life Orb of Heavens",
+        "level":"9"
+      }
+    ]
+  },
+  "mushrooms":{
+    "displayName":"Mushrooms",
+    "items":[
+      {
+        "name":"Mushroom Caps",
+        "level":"0"
+      },
+      {
+        "name":"Spotted Shrooms",
+        "level":"1",
+        "requiresDisplayName":true
+      },
+      {
+        "name":"Hero Mushroom",
+        "level":"2"
+      },
+      {
+        "name":"Triple Shroom",
+        "level":"3",
+        "requiresDisplayName":true
+      },
+      {
+        "name":"Carniverous Shroom",
+        "level":"4",
+        "requiresDisplayName":true
+      },
+      {
+        "name":"Stalwart Shroom",
+        "level":"5",
+        "requiresDisplayName":true
+      },
+      {
+        "name":"Umbrella Shroom",
+        "level":"6",
+        "requiresDisplayName":true
+      },
+      {
+        "name":"Pod Fungus",
+        "level":"7",
+        "requiresDisplayName":true
+      },
+      {
+        "name":"Dwarf Fungus",
+        "level":"8",
+        "requiresDisplayName":true
+      },
+      {
+        "name":"1000 Year Fungus",
+        "level":"9",
+        "requiresDisplayName":true
+      },
+      {
+        "name":"Prehistoric Mushrooms",
+        "level":"10"
+      },
+      {
+        "name":"Dragonfire Shroom Forest",
+        "level":"11",
+        "requiresDisplayName":true,
+        "isWonder":true
+      }
+    ]
+  },
+  "fruit-trees": {"displayName": "Fruit Tree", "items": [{"name":"Leaf of a Fruit Tree","level":"0"},{"name":"Fruit Tree Seed","level":"0"},{"name":"Fruit Tree Sapling","level":"1"},{"name":"Young Fruit Tree","level":"2"},{"name":"Small Fruit Tree","level":"3"},{"name":"Fruit Tree","level":"4"},{"name":"Large Fruit Tree","level":"5"},{"name":"Nice Fruit Tree","level":"6"},{"name":"Aged Fruit Tree","level":"7"},{"name":"Elder Fruit Tree","level":"8"},{"name":"Ancient Fruit Tree","level":"9"},{"name":"Mystical Fruit Tree","level":"10"},{"name":"Magic Beanstalk","level":"11","requiresDisplayName": true,"isWonder":true}]},
+  "midas-trees": {"displayName": "Midas Tree", "items": [{"name":"Golden Seeds","level":"0","requiresDisplayName": true},{"name":"Sprouting Midas Tree","level":"1"},{"name":"Golden Sapling","level":"2","requiresDisplayName": true},{"name":"Golden Tree","level":"3","requiresDisplayName": true},{"name":"Midas Tree","level":"4"},{"name":"Glowing Midas Tree","level":"5"},{"name":"The Orb Holder","level":"6","requiresDisplayName": true},{"name":"The Crystal Catcher","level":"7","requiresDisplayName": true},{"name":"The Moon Bearer","level":"8","requiresDisplayName": true},{"name":"The Star Mother","level":"9","requiresDisplayName": true},{"name":"Greater Midas Tree","level":"10"},{"name":"Divine Midas Tree","level":"11"},{"name":"Bearer of the World Crystal","level":"12","requiresDisplayName": true,"isWonder":true}]},
+  "living-stones": {"displayName": "Living Stone", "items": [{"name":"Fresh Stones","level":"1","requiresDisplayName": true},{"name":"Moss Covered Stone","level":"2","requiresDisplayName": true},{"name":"Living Stone","level":"3","requiresDisplayName": true},{"name":"Large Moss Stone","level":"4","requiresDisplayName": true},{"name":"Clover Stone","level":"5","requiresDisplayName": true},{"name":"Basalt Rock","level":"6","requiresDisplayName": true},{"name":"King's Seat","level":"7","requiresDisplayName": true},{"name":"Dino Rock","level":"8","requiresDisplayName": true},{"name":"Bluemoss Stoneguard","level":"9","requiresDisplayName": true},{"name":"Dragonmoss Steppes","level":"10","requiresDisplayName": true},{"name":"Stonehenge","level":"10","requiresDisplayName": true,"isWonder":true}]},
+  "magic-mushrooms": {"displayName":"Magic Mushroom", "items": [{"name":"Magic Mushroom Caps","level":"0"},{"name":"Magic Shroom Cluster","level":"1"},{"name":"Magic Shroom Stalk","level":"2"},{"name":"Magic Shrooms","level":"3"},{"name":"Green Dream Shrooms","level":"4","requiresDisplayName": true},{"name":"Blue Belly Shrooms","level":"5","requiresDisplayName": true},{"name":"Glowflap Shrooms","level":"6","requiresDisplayName": true},{"name":"Dragonfan Shrooms","level":"7","requiresDisplayName": true},{"name":"Alien Shrooms","level":"8","requiresDisplayName": true},{"name":"Fantasy Shrooms","level":"9","requiresDisplayName": true},{"name":"The Golden Mushroom","level":"10","requiresDisplayName": true,"isWonder":true}]},
+  "prism-flowers": {"displayName":"Prism Flower", "items": [{"name":"Seeds of the Prism Flower","level":"0"},{"name":"Sprouting Prism Flower","level":"1"},{"name":"Prism Flower Buds","level":"2"},{"name":"Opening Prism Flowers","level":"3"},{"name":"Prism Flowers","level":"4"},{"name":"Blossoming Prism Flowers","level":"5"},{"name":"Gorgeous Prism Flowers","level":"6"},{"name":"Brilliant Prism Flowers","level":"7"},{"name":"Spectral Prism Flowers","level":"8"},{"name":"Glowing Prism Flowers","level":"9"},{"name":"Trinity Dome","level":"10","requiresDisplayName": true,"isWonder":true}]},
+  "grasses": {"displayName":"Grass", "items": [{"name":"Mysterious Seed","level":"0","requiresDisplayName": true},{"name":"Grass Tuft","level":"1"},{"name":"Lawn Grass","level":"2"},{"name":"Great Grass","level":"3"},{"name":"Marsh Grass","level":"4"},{"name":"Tall Grass","level":"5"},{"name":"Golden Wheatgrass","level":"6","requiresDisplayName": true},{"name":"Dragon's Whisker","level":"7","requiresDisplayName": true},{"name":"Radiant Grass","level":"8"},{"name":"Ensnared Virtue","level":"9","requiresDisplayName": true,"isWonder":true}]},
+  "bushes": {"displayName":"Bush", "items": [{"name":"Shrub Sprouts","level":"1","requiresDisplayName": true},{"name":"Budding Shrub","level":"2","requiresDisplayName": true},{"name":"Nice Shrub","level":"3","requiresDisplayName": true},{"name":"Flowering Shrub","level":"4","requiresDisplayName": true},{"name":"Gorgeous Shrub","level":"5","requiresDisplayName": true},{"name":"Ruins of the Sky Palace","level":"5","requiresDisplayName": true,"isWonder":true}]},
+  "forgotten-flowers": {"displayName":"Forgotten Flower", "items": [{"name":"Lost Bud","level":"1","requiresDisplayName": true},{"name":"Sunday Flower","level":"2","requiresDisplayName": true},{"name":"Twin Flowers","level":"3","requiresDisplayName": true},{"name":"Three Graces","level":"4","requiresDisplayName": true},{"name":"Moonflower","level":"5","requiresDisplayName": true},{"name":"Plumeria","level":"6","requiresDisplayName": true},{"name":"Apollo's Bloom","level":"7","requiresDisplayName": true},{"name":"Athena's Flowers","level":"8","requiresDisplayName": true},{"name":"Aphrodite's Vase","level":"9","requiresDisplayName": true},{"name":"Zeus's Cup","level":"10","requiresDisplayName": true}]},
+  "gaia-statues": {"displayName":"Gaia Statue", "items": [{"name":"Destroyed Gaia Statue","level":"1"},{"name":"Restored Gaia Statue","level":"2"},{"name":"Grand Gaia Statue","level":"3"},{"name":"Heavenly Gaia Statue","level":"4"}]},
+  "graves": {"displayName":"Grave", "items": [{"name":"Fresh Grave","level":"1"},{"name":"Corwin's Tomb","level":"2","requiresDisplayName": true},{"name":"Lost Soul's Grave","level":"3"},{"name":"Doom Cross","level":"4","requiresDisplayName": true},{"name":"Fiend's Resting Place","level":"5","requiresDisplayName": true},{"name":"Tomb of the Innocent","level":"6","requiresDisplayName": true},{"name":"Tomb of the Forgiven","level":"7","requiresDisplayName": true},{"name":"Tomb of the Righteous","level":"8","requiresDisplayName": true}]},
+  "grimm-trees": {"displayName":"Grimm Tree", "items": [{"name":"Grimm Seed","level":"0","requiresDisplayName": true},{"name":"Grimm Sapling","level":"1","requiresDisplayName": true},{"name":"Young Grimm Tree","level":"2"},{"name":"Small Grimm Tree","level":"3"},{"name":"Grimm Tree","level":"4"},{"name":"Dark Grimm Tree","level":"5"},{"name":"Foreboding Grimm Tree","level":"6"},{"name":"Grimm Tree of Dread","level":"7"},{"name":"Chilling Grimm Tree","level":"8"},{"name":"Grimm Tree of Fear","level":"9"},{"name":"Grimm Tree of Despair","level":"10"}]},
+  "haunted-houses": {"displayName":"Haunted House", "items": [{"name":"Fresh Graveyard","level":"0","requiresDisplayName": true},{"name":"Small Haunted Crypt","level":"1","requiresDisplayName": true},{"name":"Haunted Crypt","level":"2","requiresDisplayName": true},{"name":"Haunted Shack","level":"3","requiresDisplayName": true},{"name":"Haunted House","level":"4"},{"name":"Large Haunted House","level":"5"},{"name":"Haunted Manor","level":"6","requiresDisplayName": true},{"name":"Haunted Mansion","level":"7","requiresDisplayName": true},{"name":"Haunted Estate","level":"8","requiresDisplayName": true},{"name":"Grand Haunted Estate","level":"9","requiresDisplayName": true},{"name":"Paranormal Purgatory","level":"10","requiresDisplayName": true}]},
+  "healing-goddesses": {"displayName":"Healing Goddess", "items": [{"name":"Minor Goddess of Healing","level":"1"},{"name":"Goddess of Healing","level":"2"},{"name":"Strong Goddess of Healing","level":"3"},{"name":"Greater Goddess of Healing","level":"4"},{"name":"Healing Goddess of Legend","level":"5"}]},
+  "magic-coin-storage": {"displayName":"Magic Coin Storage", "items": [{"name":"Tattered Coin Vault","level":"1"},{"name":"Basic Coin Vault","level":"2"},{"name":"Nice Coin Vault","level":"3"},{"name":"Great Coin Vault","level":"4"},{"name":"Opulent Coin Vault","level":"5"},{"name":"Mythical Coin Vault","level":"6"},{"name":"Gigantic Coin Vault","level":"7"},{"name":"Bottomless Coin Vault","level":"8"}]},
+  "magic-coins": {"displayName":"Magic Coin", "items": [{"name":"Tiny Magic Coin","level":"1"},{"name":"Magic Coin - Bronze","level":"2"},{"name":"Magic Coin - Silver","level":"3"},{"name":"Magic Coin - Gold","level":"4"},{"name":"Magic Coin - Spellium","level":"5"},{"name":"Magic Gem of Blood","level":"6"},{"name":"Magic Gem of Tears","level":"7"},{"name":"Magic Gem of Fate","level":"8"},{"name":"Magic Gem of Life","level":"9"}]},
+  "monster-idols": {"displayName":"Monster Idol", "items": [{"name":"Kattryx","level":"1"},{"name":"Guardian Sphinx","level":"2"},{"name":"Young Cerberus","level":"3"},{"name":"Noble Gryphon","level":"4"},{"name":"Mythical Ogopogo","level":"5"}]},
+  "mythical-idols": {"displayName":"Mythical Idol", "items": [{"name":"The Gromblin","level":"1"},{"name":"The Capricorn","level":"2"},{"name":"The Dragon Idol","level":"3"},{"name":"The Rising Phoenix","level":"4"},{"name":"The Mythical Pegasus Idol","level":"5"}]},
+  "mystic-topiaries": {"displayName":"Mystic Topiary", "items": [{"name":"Bunny Topiary","level":"1"},{"name":"Bear Topiary","level":"2"},{"name":"Rex Topiary","level":"3"},{"name":"Magnificient Rose Swan Topiary","level":"4"},{"name":"Seahorse Topiary","level":"5"},{"name":"Dolphin Topiary","level":"6"},{"name":"Lilac Unicorn Topiary","level":"6"},{"name":"Magnificent Dragon Topiary","level":"7"}]},
+  "shimmer-fountains": {"displayName":"Shimmer Fountain", "items": [{"name":"Fountain of Legend","level":"1","requiresDisplayName":true},{"name":"Ancient Spring","level":"2","requiresDisplayName":true},{"name":"Shimmering Spring","level":"3","requiresDisplayName":true},{"name":"Fountain of Faith","level":"4","requiresDisplayName":true},{"name":"Fountain of Rebirth","level":"5","requiresDisplayName":true},{"name":"Heroic Dragon Spa","level":"6","requiresDisplayName":true}]},
+  "spooky-trees": {"displayName":"Spooky Tree", "items": [{"name":"Undead Tree","level":"2"},{"name":"Deathly Hollow Tree","level":"3"},{"name":"Spooky Old Tree","level":"4"}]},
+  "stone-bricks": {"displayName":"Stone Brick", "items": [{"name":"Stone Brick","level":"1"},{"name":"Stone Bricks","level":"2"},{"name":"Pile of Stone Bricks","level":"3"},{"name":"Nightstone Brick","level":"4"},{"name":"Nightstone Bricks","level":"5"},{"name":"Pile of Nightstone Bricks","level":"6"},{"name":"Ogre Stone Shards","level":"7","requiresDisplayName": true},{"name":"Ogre Stone","level":"8","requiresDisplayName": true},{"name":"Ogre Stone Monolith","level":"9","requiresDisplayName": true}]},
+  "stone-storages": {"displayName":"Stone Storage", "items": [{"name":"Tattered Stone Yard","level":"1"},{"name":"Basic Stone Yard","level":"2"},{"name":"Nice Stone Yard","level":"3"},{"name":"Great Stone Yard","level":"4"},{"name":"Opulent Stone Yard","level":"5"},{"name":"Mythical Stone Yard","level":"6"},{"name":"Gigantic Stone Yard","level":"7"},{"name":"Bottomless Stone Yard","level":"8"}]},
+  "treasure-chests": {"displayName":"Treasure Chest", "items": [{"name":"Ordinary Treasure Chest","level":"1"},{"name":"Nice Treasure Chest","level":"2"},{"name":"Chained Treasure Chest","level":"3"},{"name":"Sunken Chest","level":"4"},{"name":"Noble Chest","level":"5"},{"name":"Glowing Chest","level":"6"},{"name":"Giant Treasure Chest","level":"7"}]},
+  "water": {"displayName":"Water", "items": [{"name":"Rain Puddle","level":"1","requiresDisplayName":true},{"name":"Fledgling Puddle","level":"2","requiresDisplayName":true},{"name":"Puddle","level":"3","requiresDisplayName":true},{"name":"Water","level":"4","requiresDisplayName":true},{"name":"Watering Hole","level":"5","requiresDisplayName":true},{"name":"Manicured Pond","level":"6","requiresDisplayName":true},{"name":"Large Pond","level":"7","requiresDisplayName":true},{"name":"Beautiful Pond","level":"8","requiresDisplayName":true},{"name":"Bottled Ocean","level":"8","requiresDisplayName":true}]}
+}

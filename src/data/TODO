@@ -1,0 +1,9 @@
+- compute with inventory values in mind
+- restyle inventory column and vertical spacing in chain list
+- highlight target level
+- compute values for levels above target level
+- after rendering submit button, clicking submit should update computed quantities needed
+    should preserve inventory if chain has not changed
+- instructions on page
+- make README
+- rethink organization of files

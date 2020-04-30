@@ -1,0 +1,12 @@
+.listItemHead {
+  text-align: center;
+}
+
+.listItemGroup {
+  display: flex;
+  justify-content: space-between;
+}
+
+.listItemGroup > * {
+  padding-right: 15px;
+}
