@@ -4,3 +4,6 @@
 - compute values for levels above target level
 - after rendering submit button, clicking submit should update computed quantities needed
     should preserve inventory if chain has not changed
+- instructions on page
+- make README
+- rethink organization of files
