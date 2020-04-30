@@ -1,0 +1,12 @@
+.chainHead {
+  text-align: center;
+}
+
+.itemListlabels {
+  display: flex;
+  justify-content: space-between;
+}
+
+.itemListlabels p {
+  width: 50%;
+}

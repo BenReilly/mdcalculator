@@ -1,0 +1,48 @@
+.conversionForm {
+  margin: 15px;
+}
+
+.baseRow {
+  margin: 15px;
+  font-size: 16px;
+}
+
+.chainType {
+  display: flex;
+  max-height: 20px;
+  align-items: center;
+}
+
+.chainType p {
+  margin-right: 10px;
+}
+
+.numberData {
+  display: flex;
+  justify-content: space-around;
+  height: 20px;
+  margin: 15px;
+}
+
+.desiredMerge {
+  margin: 0 5px;
+  display: flex;
+  flex-direction: column;
+}
+
+.desiredMerge > input {
+  width: 40px;
+}
+
+.desiredMerge > label {
+  font-size: 12px;
+}
+
+.desiredLevel {
+  margin: 0 5px;
+  display:flex;
+}
+
+.desiredLevel > label {
+  margin-right: 5px;
+}
