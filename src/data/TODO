@@ -1,4 +1,5 @@
-- compute with inventory values in mind
+DONE - compute with inventory values in mind
+- handle multiple level zeroes.
 - restyle inventory column and vertical spacing in chain list
 - highlight target level
 - compute values for levels above target level
