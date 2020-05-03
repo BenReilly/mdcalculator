@@ -10,3 +10,8 @@
 .itemListlabels p {
   width: 50%;
 }
+
+.targetItem {
+  border: 1px solid green;
+  background-color: #D7EDD7;
+}

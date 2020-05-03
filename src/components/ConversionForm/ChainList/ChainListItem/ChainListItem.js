@@ -1,6 +1,5 @@
 import React from 'react';
 import Aux from '../../../../hoc/Aux/Aux';
-// import ItemField from '../../ItemField/ItemField';
 import HaveField from '../../HaveField/HaveField';
 import './ChainListItem.css';
 
