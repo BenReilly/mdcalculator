@@ -15,7 +15,9 @@ class ChainList extends Component {
     items.forEach((item, idx, arr) => {
       const itemLvl = parseInt(item.level);
       const previous = arr.find((itm) => parseInt(itm.level) === itemLvl + 1);
-      item.totalQty = itemLvl > propsLvl ? 0 : itemLvl === propsLvl ? propsQty : Math.ceil(previous.totalQty / 2) * 5;
+      const qty = item.inventoryQty || 0;
+      const propsLvl = parseInt(this.props.level);
+      item.totalQty = itemLvl > propsLvl ? 0 : itemLvl === propsLvl ? propsQty : (Math.ceil(previous.totalQty / 2) * 5) - qty;
     });
     items.sort((a, b) => {
       const a1 = parseInt(a.level);
@@ -27,8 +29,9 @@ class ChainList extends Component {
         level: item.level,
         isWonder: item.isWonder,
         name: item.name,
+        idName: item.name.toLowerCase().replace(' ', '-'),
         totalQty: item.totalQty,
-        inventoryQty: 0
+        inventoryQty: item.inventoryQty || 0
       }
     });
     return computedItems;
@@ -40,13 +43,18 @@ class ChainList extends Component {
   
   handleInventoryChange = (e) => {
     const newInventoryValue = e.target.value;
-    const level = e.target.id.slice(e.target.id.lastIndexOf('_') + 1);
-    const inventory = this.state.inventoryItems.map((item) => {
-      return Object.assign({}, item, {
-        inventoryQty: item.level === level ? newInventoryValue : item.qty
-      });
+    const itemData = e.target.id.split('_');
+    itemData.pop();
+    const idName = itemData.join('');
+    const items = this.state.computedItems;
+    const itemToUpdate = items.findIndex((item) => item.idName === idName);
+    items[itemToUpdate].inventoryQty = newInventoryValue;
+    items.sort((a, b) => {
+      const a1 = parseInt(a.level);
+      const b1 = parseInt(b.level);
+      return a1 > b1 ? 1 : a1 < b1 ? -1 : 0
     });
-    this.setState({ inventoryItems: inventory });
+    this.setState({ computedItems: this.computeItems(items, this.props.level, this.props.qty) });
   }
 
   render() {
@@ -63,7 +71,7 @@ class ChainList extends Component {
             <ChainListItem
               key={item.level + item.name}
               item={item}
-              handleInventoryChange={() => this.handleInventoryChange()}
+              handleInventoryChange={(e) => this.handleInventoryChange(e)}
             />
           ))}
         </Aux>

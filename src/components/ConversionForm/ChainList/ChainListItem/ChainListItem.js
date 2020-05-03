@@ -11,6 +11,7 @@ const chainListItem = (props) => {
       <h3 className="listItemHead">{levelDisplay} {props.item.name}</h3>
       <div className="listItemGroup">
         <HaveField
+          idName={props.item.idName}
           handleInventoryChange={props.handleInventoryChange}
           name={props.item.name}
           level={props.item.level}

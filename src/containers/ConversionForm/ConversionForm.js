@@ -53,7 +53,7 @@ class ConversionForm extends Component {
       selectedChain: undefined,
       selectedChainName: '',
       selectedChainLevels: [],
-      qty: 0,
+      qty: 1,
       showChainList: false
     });
   }
