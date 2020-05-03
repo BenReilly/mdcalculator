@@ -1,4 +1,5 @@
 import React from 'react';
+import './HaveField.css'
 
 const haveField = (props) => {
   const labelId = `${props.idName}__${props.level}-inv`

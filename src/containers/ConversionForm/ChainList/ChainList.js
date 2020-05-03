@@ -68,11 +68,13 @@ class ChainList extends Component {
             <p>Harvest:</p>
           </div>
           {this.state.computedItems.map((item) => (
-            <ChainListItem
-              key={item.level + item.name}
-              item={item}
-              handleInventoryChange={(e) => this.handleInventoryChange(e)}
-            />
+            <div className={item.level === this.props.level ? 'targetItem' : 'standardItem'}>
+              <ChainListItem
+                key={item.level + item.name}
+                item={item}
+                handleInventoryChange={(e) => this.handleInventoryChange(e)}
+              />
+            </div>
           ))}
         </Aux>
       );

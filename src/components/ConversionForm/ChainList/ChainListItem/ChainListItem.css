@@ -1,12 +1,19 @@
 .listItemHead {
   text-align: center;
+  margin: 15px 0 0;
 }
 
 .listItemGroup {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
+  align-items: baseline;
 }
 
 .listItemGroup > * {
   padding-right: 15px;
+}
+
+.listItemGroup > p {
+  width: 100px;
+  text-align: right;
 }
