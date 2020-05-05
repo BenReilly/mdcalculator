@@ -1,7 +1,7 @@
 DONE - compute with inventory values in mind
-- handle multiple level zeroes.
-- restyle inventory column and vertical spacing in chain list
-- highlight target level
+Already works - handle multiple level zeroes.
+DONE - restyle inventory column and vertical spacing in chain list
+DONE - highlight target level
 - compute values for levels above target level
 - after rendering submit button, clicking submit should update computed quantities needed
     should preserve inventory if chain has not changed
