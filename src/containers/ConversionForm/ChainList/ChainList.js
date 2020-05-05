@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import ChainListItem from '../../../components/ConversionForm/ChainList/ChainListItem/ChainListItem';
-import Aux from '../../../hoc/Aux/Aux';
+import Aux from '../../../hoc/Misc/Misc';
 import './ChainList.css';
 
 class ChainList extends Component {
@@ -68,9 +68,11 @@ class ChainList extends Component {
             <p>Harvest:</p>
           </div>
           {this.state.computedItems.map((item) => (
-            <div className={item.level === this.props.level ? 'targetItem' : 'standardItem'}>
+            <div
+              className={item.level === this.props.level ? 'targetItem' : 'standardItem'}
+              key={item.level + item.idName}
+            >
               <ChainListItem
-                key={item.level + item.name}
                 item={item}
                 handleInventoryChange={(e) => this.handleInventoryChange(e)}
               />
